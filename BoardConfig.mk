@@ -31,6 +31,8 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun0/file
+
 DEVICE_RESOLUTION :=540x960
 TW_INTERNAL_STORAGE_PATH := "/internal_sdcard"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "internal_sdcard"
